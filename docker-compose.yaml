@@ -10,8 +10,11 @@ services:
       - ./data:/data
     environment:
       - 'EULA=TRUE'
-      - 'GAMEMODE=survival'
-      - 'DIFFICULTY=normal'
+      - 'LEVEL_SEED=712262452098460' #My suggestion seed X=-1060, Z=925 (wisehosting.com/blod/20-seeds-you-must-try-in-minecraft-1.20)
+      - 'GAMEMODE=adventure' # adventure, survival, creative
+      - 'DIFFICULTY=normal' #peaceful, easy, normal, hard
+      - 'MAX_PLAYERS=20'
+      - 'ALLOW_CHEATS=false'
 
   backup:
     build:
