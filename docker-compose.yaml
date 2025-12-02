@@ -3,7 +3,6 @@ version: '3.8'
 services:
   bedrock:
     image: itzg/minecraft-bedrock-server
-    container_name: bedrock_server
     restart: always
     ports:
       - "19132:19132/udp"
@@ -18,7 +17,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: bedrock_backup
     volumes:
       - ./data:/data:ro
       - ./backups:/backups
