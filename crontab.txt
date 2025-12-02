@@ -1,0 +1,3 @@
+*/30 * * * * /usr/local/bin/backup_shortly.sh
+0 3 * * * /usr/local/bin/backup_daily.sh
+0 0 1 * * /usr/local/bin/backup_monthly.sh
