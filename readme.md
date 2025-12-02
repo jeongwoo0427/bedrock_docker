@@ -28,6 +28,10 @@ docker exec CONTAINER_NAME_OR_ID send-command gamerule mobGriefing false
 ```
 
 ```
+docker exec CONTAINER_NAME_OR_ID send-command gamerule keepinventory true 
+```
+
+```
 docker exec CONTAINER_NAME_OR_ID send-command gamemode survival USER_NAME_OR_ID
 ```
 
