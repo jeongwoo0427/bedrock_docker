@@ -4,7 +4,6 @@
 ## Server start
 
 ```bash
-
 docker compose up
 ```
 
