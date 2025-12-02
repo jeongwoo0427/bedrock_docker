@@ -1,0 +1,4 @@
+
+
+*.yaml linguist-vendored
+*.sh linguist-vendored
