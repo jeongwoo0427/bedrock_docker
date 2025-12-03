@@ -2,7 +2,7 @@
 
 BACKUP_DIR="/backups/monthly"
 WORLD_DIR="/data"
-MAX_BACKUPS=50
+MAX_BACKUPS=6
 
 mkdir -p "$BACKUP_DIR"
 
